@@ -1,0 +1,29 @@
+#!/bin/bash
+#!/bin/fish
+# PATH=./node_modules/.bin:$PATH
+
+
+function create-venv {
+    python3 -m venv ./.virtualenv/{{ cookiecutter.project_slug}}
+}
+
+function pip-install {
+    python3 -m pip install -r ./requirements.txt
+}
+
+function docs-serve {
+    mkdocs serve
+}
+
+
+function docs-build {
+    mkdocs build
+}
+
+function help {
+    echo "$0 <task> <args>"
+    echo "Tasks:"
+    compgen -A function | cat -n
+}
+
+"$@"

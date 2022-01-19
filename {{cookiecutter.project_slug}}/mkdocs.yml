@@ -1,0 +1,27 @@
+site_name: {{ cookiecutter.project_name }}
+
+nav:
+    - Overview: 'index.md'
+
+theme:
+    name: material
+    features:
+        - navigation.expand
+    palette:
+        primary: 'cyan'
+        accent: 'amber'
+
+repo_name: {{ cookiecutter.project_slug }}
+repo_url:
+docs_dir: docs
+
+
+markdown_extensions:
+    - toc:
+        permalink: 🔖
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    # see https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#supported-extensions for supported extensions    
+
+
