@@ -1,6 +1,4 @@
 #!/bin/bash
-#!/bin/fish
-# PATH=./node_modules/.bin:$PATH
 
 
 function create-venv {

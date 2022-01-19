@@ -2,16 +2,16 @@
 
 from distutils.core import setup
 setup(
-    name='cookiecutter-pypackage',
+    name='cookiecutter-mkdocs-material',
     packages=[],
     version='0.1.0',
-    description='Cookiecutter template for a Python package',
-    author='Audrey Roy Greenfeld',
+    description='Cookiecutter template for MkDocs material theme projects',
+    author='Lars Claussen',
     license='BSD',
-    author_email='aroy@alum.mit.edu',
-    url='https://github.com/audreyr/cookiecutter-pypackage',
-    keywords=['cookiecutter', 'template', 'package', ],
-    python_requires='>=3.5',
+    author_email='larsagny@gmail.com',
+    url='https://github.com/larsagny/cookiecutter-mkdocs-material',
+    keywords=['cookiecutter', 'template', 'package', 'mkdocs', 'material'],
+    python_requires='>=3.7',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Console',
