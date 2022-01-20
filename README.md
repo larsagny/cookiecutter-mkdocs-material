@@ -34,4 +34,4 @@ Start your documentation project
 Credits
 -------
 
-This package is based on the `audreyr/cookiecutter-pypackage`_ project template.
+This package is based on the [audreyr/cookiecutter-pypackage](https://github.com/audreyfeldroy/cookiecutter-pypackage) project template.

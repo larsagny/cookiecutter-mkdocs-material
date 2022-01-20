@@ -7,9 +7,11 @@ theme:
     name: material
     features:
         - navigation.expand
+    # see https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette for all options
     palette:
-        primary: 'cyan'
-        accent: 'amber'
+        scheme: default  # use "slate" for dark mode
+        primary: blue grey
+        accent: amber
 
 repo_name: {{ cookiecutter.project_slug }}
 repo_url:
