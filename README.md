@@ -1,7 +1,7 @@
 # Cookiecutter MKDocs Material
 
 
-Cookiecutter template for mk-docs material projects.
+🍪cutter template for mk-docs material projects.
 
 * GitHub repo: https://github.com/larsagny/cookiecutter-mkdocs-material/
 * Free software: BSD license
