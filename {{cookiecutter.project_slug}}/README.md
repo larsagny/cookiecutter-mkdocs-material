@@ -26,11 +26,11 @@ Then create a virtual environment.
 run create-venv
 ```
 
-By default the virtual env will named after your `project_slug`. So to activate it:
+By default the virtual env will be named after your `project_slug`. So to activate it:
 
 
 ```bash
-. .virtualenv/<project_slug>/bin/activate
+source .virtualenv/<project_slug>/bin/activate
 ```
 
 To install dependencies:
@@ -54,7 +54,4 @@ run docs-build
 Credits
 -------
 
-This package was created with Cookiecutter_ and the `larsclaussen/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+This package was created with Cookiecutter_ and the [larsagny/cookiecutter-mkdocs-material](https://github.com/larsagny/cookiecutter-mkdocs-material) project template.

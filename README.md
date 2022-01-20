@@ -30,6 +30,7 @@ Start your documentation project
     cookiecutter cookiecutter-mkdocs-material/
 ```
 
+The projects `README.md` will contain further information on how to build your project.  
 
 Credits
 -------
